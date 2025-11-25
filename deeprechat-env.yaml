@@ -22,6 +22,9 @@ webSearch:
   cohereApiKey: "${COHERE_API_KEY}"
   rerankerType: "cohere" # Options: "jina", "cohere"
 
+memory:
+  disabled: true
+
 endpoints:
   custom:
     # deepseek
