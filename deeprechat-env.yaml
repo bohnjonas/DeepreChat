@@ -3,11 +3,10 @@ version: 1.2.4
 cache: true
 
 interface:
-  customWelcome: "Welcome to your Open Source AI Chatbot Platform!"
+  customWelcome: "Hey {{user.name}}! Welcome to the Disputes Academy! 🚀"
   webSearch: true
   fileSearch: true
   fileCitations: true
-  prompts: false
 
 registration:
   socialLogins:
@@ -16,6 +15,10 @@ registration:
     - "github"
     - "google"
     - "openid"
+
+webSearch:
+  serperApiKey: "${SERPER_API_KEY}"
+  searchProvider: "serper"
 
 endpoints:
   custom:
