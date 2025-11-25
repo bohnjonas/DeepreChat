@@ -91,12 +91,12 @@ endpoints:
       baseURL: "https://api.x.ai/v1"
       models:
         default:
-          - grok-3
+          - grok-4-1-fast
         fetch: false
       titleConvo: true
       titleMethod: "completion"
-      titleModel: "grok-3"
+      titleModel: "grok-4-1-fast"
       summarize: false
-      summaryModel: "grok-3"
+      summaryModel: "grok-4-1-fast"
       forcePrompt: false
       modelDisplayLabel: "Grok"
