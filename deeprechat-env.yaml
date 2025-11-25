@@ -36,6 +36,7 @@ endpoints:
       models:
         default:
           - deepseek-chat
+          - deepseek-reasoner
         fetch: false
       titleConvo: true
       titleModel: "deepseek-chat"
