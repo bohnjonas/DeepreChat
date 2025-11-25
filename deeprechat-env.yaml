@@ -2,6 +2,12 @@ version: 1.2.4
 
 cache: true
 
+interface:
+  customWelcome: "Welcome to your Open Source AI Chatbot Platform!"
+  fileSearch: true
+  fileCitations: true
+  prompts: false
+
 registration:
   socialLogins:
     - "discord"
