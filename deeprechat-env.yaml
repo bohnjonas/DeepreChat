@@ -11,6 +11,7 @@ registration:
     - "openid"
 
 endpoints:
+  custom:
     # deepseek
     # https://platform.deepseek.com/api_keys
     # Model list: https://platform.deepseek.com/api-docs/pricing
