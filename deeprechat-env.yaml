@@ -19,6 +19,8 @@ registration:
 webSearch:
   serperApiKey: "${SERPER_API_KEY}"
   searchProvider: "serper"
+  cohereApiKey: "${COHERE_API_KEY}"
+  rerankerType: "cohere" # Options: "jina", "cohere"
 
 endpoints:
   custom:
