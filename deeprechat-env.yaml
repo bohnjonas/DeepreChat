@@ -7,6 +7,7 @@ interface:
   webSearch: true
   fileSearch: true
   fileCitations: true
+  prompts: true
 
 registration:
   socialLogins:
