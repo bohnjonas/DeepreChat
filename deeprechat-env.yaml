@@ -3,7 +3,7 @@ version: 1.2.4
 cache: true
 
 interface:
-  customWelcome: "Hey {{user.name}}! Welcome to the Disputes Academy! 🚀"
+  customWelcome: "Hey {{user.name}}! Welcome to the DeepJudge AI Playground! 🚀"
   webSearch: true
   fileSearch: true
   fileCitations: true
@@ -67,7 +67,7 @@ endpoints:
         - "frequency_penalty"
         - "presence_penalty"
 
-    # Preplexity
+    # Perplexity
     # Model list: https://docs.perplexity.ai/docs/model-cards
     - name: "Perplexity"
       apiKey: "${PERPLEXITY_API_KEY}"
